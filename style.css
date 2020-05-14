@@ -1,0 +1,118 @@
+html{
+    min-height:100%;
+}
+
+h1, h2{
+    font-family: 'Bitter', serif;
+    color:#e3e7f1;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+body{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: #c6cbef;
+    background: linear-gradient(#8186d5, #494ca2);
+    background-repeat:no-repeat;
+}
+
+input{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #8186d5;
+    color:black;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+input[type="text"]:hover{
+    box-shadow: 0 0 10px antiquewhite;
+}
+
+input::placeholder{
+    color:#c6cbef;
+}
+
+button{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #8186d5;
+    color:black;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+button:active{
+    box-shadow: 0 0;
+}
+
+button:hover{
+    background-color:#c6cbef;
+}
+
+/* Time adjustment section */
+.time{
+    margin:3%;
+    line-height: 1.5rem;
+}
+
+.time-value, .overtime-value{
+    width:3rem;
+    height:2rem;
+    margin-bottom:20px;
+}
+
+/* Task adjustment section */
+.add-task{
+    margin-bottom:1%;
+}
+
+.task{
+    margin: 10px 0;
+}
+
+.task-remove, .task input{
+    font-size:1.17rem;
+}
+
+.task-allocation{
+    width:3rem;
+}
+
+/* Report section */
+.report-container{
+    margin-top: 3%;
+}
+
+.report-status{
+    color:white;
+    margin-bottom: 3%;
+    display:inline-block;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.report-error{
+    background-color:#eb4559;
+
+}
+
+.report-good{
+    background-color:#75b79e;
+}
+
+.task-report h3{
+    display: inline;
+}
+
+.task-report h4{
+    display: inline;
+}
